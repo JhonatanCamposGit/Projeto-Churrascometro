@@ -1,0 +1,20 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    margin:auto;
+    background-color: rgba(247, 161, 139, 0.568);
+    padding: 20px;
+    border-radius:20px
+}
+h1{
+    margin-top: 0px;
+}
+input{
+    width:100%; /*Pega 100% da largura do "Elemento Pai"(Div/container)*/
+    display:block;  /*Para ocupar todo o espaço horizontal e forçar o 'calcular' vim pra baixo */
+    padding:5px; /* aumentou o espaço interno do input  */
+    box-sizing:border-box; /*Ajusta a borda, nesse caso igualou o espaço da esquerda e direita*/
+    margin-bottom:10px;
+    text-align: center;
+}
+
